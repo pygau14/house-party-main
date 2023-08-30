@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Host A Party - House Party By United</title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/Capture-removebg-preview.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/Capture-removebg-preview.png" />
+    <link rel="manifest" href="assets/img/Capture-removebg-preview.png" />
+
+
+    <script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.all.min.js
+"></script>
+    <link href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.min.css
+" rel="stylesheet">
+
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
+    <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
+    <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="assets/vendors/tevily-icons/style.css">
+    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.min.css" />
+    <link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/vendors/twentytwenty/twentytwenty.css" />
+    <link rel="stylesheet" href="assets/vendors/bxslider/jquery.bxslider.css" />
+    <link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="assets/vendors/vegas/vegas.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
+    <script src="assets/ckeditor/ckeditor.js"></script>
+   <script src="spinner.js" ></script>
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/tevily.css" />
+    <link rel="stylesheet" href="assets/css/tevily-responsive.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/4.1.1/spin.min.js" integrity="sha512-FIiuNPo30HcyMzg2W0bkaWd9NvDW3bluEEa78u+V24a68OMGAdJ0cdj1/w0OeGuVZoxaym+HCtooUtWk7r/tFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <style>
+
+ /* Spinner styles */
+ .spinner-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+
+  .spinner {
+    width: 40px;
+    height: 30px;
+    position: relative;
+    clip-path: inset(-100% 0);
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: currentColor;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: db5-1 2s linear infinite, db5-2 0.5s cubic-bezier(0, 200, 0.8, 200) infinite;
+  }
+
+  @keyframes db5-1 {
+    0% { left: -16px; transform: translate(-50%, -50%) translateY(-8px); }
+    100% { left: calc(100% + 8px); transform: translate(-50%, -50%) translateY(22px); }
+  }
+
+  @keyframes db5-2 {
+    100% { top: -0.1px; }
+  }
+        .password-container {
+            position: relative;
+        }
+
+        /* Custom style for the eye icon */
+        .toggle-password {
+            position: absolute;
+            right: 473px;
+            margin-top: -20px;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+
+        .Whatsupbuttn {
+            position: fixed;
+            right: 30px;
+            bottom: 5px;
+            height: auto;
+            background: #9990;
+            z-index: 1001;
+        }
+
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div.main {
+            /* width: 400px;
+            margin: 100px 5px 0px auto;
+            margin: 100px 417px 0px auto; */
+            width: 1169px;
+
+            margin: 95px 91px 0px auto;
+        }
+
+        h2 {
+            text-align: center;
+            padding: 20px;
+            font-family: sans-serif;
+        }
+
+        div.register {
+            background-color: rgba(0, 0, 0, 0);
+            width: 100%;
+            font-size: 18px;
+            border-radius: 10px;
+            border: 1px solidrgba(255, 255, 255, 0.3);
+            box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+            color: #000;
+            margin-bottom: 20px;
+        }
+
+        form#register {
+            margin: 40px;
+        }
+
+        label {
+            font-family: sans-serif;
+            font-size: 18px;
+            /* font-style: italic; */
+        }
+
+        input.name {
+            /* width: 300px; */
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            outline: 0;
+            padding: 8px;
+            background-color: #fff;
+            /* box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3); */
+            font-size: 16px;
+        }
+
+        input#submit {
+            width: 200px;
+            padding: 7px;
+            font-size: 16px;
+            font-family: sans-serif;
+            font-weight: 600;
+            border: none;
+            border-radius: 3px;
+            background-color: rgba(250, 0, 0, 0.8);
+            color: #fff;
+            cursor: pointer;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+        }
+
+        label,
+        span,
+        h2 {
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .guest-detail {
+            margin-top: 76px;
+        }
+
+        .guest-heading {
+            margin-top: 43px;
+        }
+
+        .form1 {
+            margin-top: 20px;
+        }
+
+        .input-type {
+            margin-bottom: 20px;
+            width: 400px;
+        }
+
+        .input-type2 {
+
+            width: 400px;
+        }
+
+        .form-format {
+            display: flex;
+            align-items: center;
+        }
+
+        .create-header {
+            margin-top: 56px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .img-width {
+            width: 80%;
+        }
+
+        .login-btn {
+            display: flex;
+            margin-left: 92px;
+            margin-top: 8px;
+        }
+
+        .eye2 {
+            right: 190px;
+        }
+
+
+
+
+
+        @media screen and (max-width: 600px) {
+            .create-header {
+                margin-left: -800px !important;
+            }
+
+            .form-control {
+                width: 27% !important;
+            }
+
+            .img-width {
+                width: 33% !important;
+            }
+
+            .login-btn {
+
+                margin-left: 47px !important;
+
+            }
+
+            .eye2 {
+                right: 85px !important;
+            }
+
+            .toggle-password {
+                right: 85px !important;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="spinner.css" />
+</head>
+
+<body>
+    <div class="spinner-container" id="spinnerContainer">
+        <div class="spinner">
+          <div class="dot"></div>
+        </div>
+      </div>
+    
+   
+    <!-- /.preloader -->
+    <div class="page-wrapper">
+        <header class="main-header clearfix">
+            <div class="main-header__top">
+                <div class="container">
+                    <div class="main-header__top-inner clearfix">
+                        <div class="main-header__top-left">
+                            <ul class="list-unstyled main-header__top-address">
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-phone-call"></span>
+                                    </div>
+                                    <div class="text">
+                                        <a href="tel:+91 85912 60648">+91 85912 60648</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-at"></span>
+                                    </div>
+                                    <div class="text">
+                                        <a href="mailto:Cheers@housepartybyunited.com">Cheers@housepartybyunited.com</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main-header__top-right">
+                            <div class="main-header__top-right-inner">
+                                <div class="main-header__top-right-social">
+
+                                    <a href="https://instagram.com/houseparty_byunited?igshid=MzRlODBiNWFlZA=="><i
+                                            class="fab fa-instagram"></i></a>
+
+                                </div>
+                                <div class="main-header__top-right-btn-box">
+                                    <a href="#" class="thm-btn main-header__top-right-btn">Attend a Party</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="main-menu clearfix">
+                <div class="main-menu-wrapper clearfix">
+                    <div class="container clearfix">
+                        <div class="main-menu-wrapper-inner clearfix">
+                            <div class="main-menu-wrapper__left clearfix">
+                                <div class="main-menu-wrapper__logo">
+                                    <a href="index.html"><img src="assets/img/logo.png" alt=""
+                                            style="margin-top: 10px;"></a>
+                                </div>
+                                <div class="main-menu-wrapper__main-menu">
+                                    <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                                    <ul class="main-menu__list" style="margin-top: 7px;">
+                                        <li class="dropdown current">
+                                            <a href="index.html">Home</a>
+
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="attend-a-party.html">Attend A Party</a>
+
+                                        </li>
+
+                                        <li class="dropdown">
+                                            <a href="host-a-party.html">Host A Party</a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="list-a-place.html">List a Place</a>
+
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="about.html">About</a>
+
+                                        </li>
+
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="main-menu-wrapper__right">
+                                <a href="#" class="main-menu__search search-toggler icon-magnifying-glass"></a>
+                                <a href="registration.html" class="main-menu__user icon-avatar"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+
+
+
+
+        <!--News One Start-->
+        <div class="main">
+            <div class="register">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-5">
+                            <img src="assets/img/singnup-removebg-preview.png" class="img-width"
+                                style="width: 100%;margin-top: 70px;">
+                            <div class="login-btn" style="display: flex;margin-left:92px;margin-top: 8px;">
+                                <p>Already a Memeber</p>
+                                <a href="login.html"><button type="submit"
+                                        class="thm-btn tours-list__sidebar-btn1 pay-button" style="padding: 3px 10px 3px 11px;
+                                    height: 39px;
+                                    margin-left: 20px;">Login</button></a>
+                            </div>
+
+                            <!-- <button type="submit" class="thm-btn tours-list__sidebar-btn1 pay-button"
+                            style="margin-top: 20px;">Sign Up</button> -->
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <div>
+                                <h2 class="create-header" style="margin-top: 56px;
+                            text-align: center;font-weight: bold;">Create Your Account</h2>
+                            </div>
+                            
+
+
+                            <form id="form_register" onsubmit="sendRegisterData(event)">
+                                <!-- <label>Username: </label>
+                                <br>
+                                <input type="text" name="fname" class="name" style="  height: 44px;"> -->
+                                <div class="row" style="margin-top: 23px;">
+                                    <div class="col-md-6">
+                                        <label>First Name* </label>
+                                        <input type="text" id="first_name" class="form-control name"
+                                            aria-label="First name" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Last Name* </label>
+                                        <input type="text" id="last_name" class="form-control name"
+                                            aria-label="Last name" required>
+                                    </div>
+
+                                </div>
+                                <div class="row" style="margin-top: 23px;">
+                                    <div class="col-md-6">
+                                        <label>Mobile No.* </label>
+                                        <input type="tel" id="mobile_no" class="form-control name"
+                                            aria-label="First name" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label>Email* </label>
+                                        <input type="email" id="email" class="form-control name" aria-label="Last name"
+                                            required>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Password* </label>
+                                            <input type="password" id="password" class="form-control"
+                                                 aria-describedby="settingsNewPassword" required
+                                                placeholder="New Password"><i class="fas fa-eye-slash toggle-password"
+                                                onclick="togglePasswordVisibility('password')"></i>
+
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label>Confirm Password </label>
+                                            <input type="password" id="confirm_password" class="form-control"
+                                                 required
+                                                aria-describedby="settingsConfirmPassword"
+                                                placeholder="Confirm Password"><i
+                                                class="fas fa-eye-slash toggle-password eye2"
+                                                onclick="togglePasswordVisibility('confirm_password')" style=""></i>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <button type="submit" class="thm-btn tours-list__sidebar-btn1 pay-button"
+                                    style="margin-top: 31px;">Sign Up</button>
+
+
+
+
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+          
+
+        <script src="registration.js" async></script>
+
+        <script>
+            function togglePasswordVisibility(fieldId) {
+                var passwordField = document.getElementById(fieldId);
+                var icon = passwordField.nextElementSibling;
+
+                if (passwordField.type === "password") {
+                    passwordField.type = "text";
+                    icon.classList.remove("fa-eye-slash");
+                    icon.classList.add("fa-eye");
+                } else {
+                    passwordField.type = "password";
+                    icon.classList.remove("fa-eye");
+                    icon.classList.add("fa-eye-slash");
+                }
+            }
+        </script>
+
+
+<div class="loader-overlay">
+    <div class="spinner"></div>
+  </div>
+
+        <!--whatsaap button-->
+
+        <div class="Whatsupbuttn" style="width:70px;">
+            <a href="https://api.whatsapp.com/send?phone=9185912 60648" style="float:right;" right:"10px;"=""
+                target="_blank">
+                <img src="assets/img/whatsaap.png" title="SMS NOW" style="height:60px; margin-right:-38px; float:left;">
+            </a>
+        </div>
+        <!--whatsaap button End-->
+
+
+
+        <!--Site Footer One Start-->
+        <footer class="site-footer">
+            <div class="site-footer__top">
+                <div class="container">
+                    <div class="site-footer__top-inner">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                                <div class="footer-widget__column footer-widget__about">
+
+
+                                    <ul class="footer-widget__about-contact list-unstyled">
+                                        <li>
+                                            <div class="icon">
+                                                <i class="fas fa-phone-square-alt"></i>
+                                            </div>
+                                            <div class="text">
+                                                <a href="tel:+91 85912 60648"> +91 85912 60648</a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <i class="fas fa-envelope"></i>
+                                            </div>
+                                            <div class="text">
+                                                <a href="mailto:Cheers@housepartybyunited.com">Cheers@housepartybyunited.com
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon icon2">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                            </div>
+                                            <div class="text">
+                                                <p>
+                                                    Shop No. 04, Veena Tower, near Balaji Super Market, Veena Nagar
+                                                    Phase-II, Veena Nagar, Mulund West, W, Maharashtra 400080 </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                                <div class="footer-widget__column footer-widget__company clearfix">
+                                    <h3 class="footer-widget__title">Company</h3>
+                                    <ul class="footer-widget__company-list list-unstyled">
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="attend-a-party.html">Attend A Party</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                        <li><a href="terms&condition.html">Terms & Conditions</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                                <div class="footer-widget__column footer-widget__explore">
+                                    <h3 class="footer-widget__title">Explore</h3>
+                                    <ul class="list-unstyled footer-widget__explore-list">
+                                        <li><a href="host-a-party.html">Host A Party</a></li>
+                                        <li><a href="list-a-place.html">List A Place</a></li>
+                                        <li><a href="#">Become A Host</a></li>
+                                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                                <div class="footer-widget__column footer-widget__newsletter">
+                                    <h3 class="footer-widget__title" style="margin-left: 9px;">Become A Host</h3>
+
+                                    <div class="mc-form__response text-center"></div><!-- /.mc-form__response -->
+                                    <div class="footer-widget__newsletter-bottom">
+
+                                        <div class="footer-widget__newsletter-bottom-text">
+                                            <p>Are you passionate about engaging with audiences, commanding attention,
+                                                and sharing captivating stories? Become a host and embark on an exciting
+                                                journey where you can showcase your talents while earning a living doing
+                                                what you love.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="site-footer__bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="site-footer__bottom-inner">
+                                <div class="site-footer__bottom-left">
+                                    <div class="footer-widget__social">
+
+                                        <a href="https://instagram.com/houseparty_byunited?igshid=MzRlODBiNWFlZA=="><i
+                                                class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                                <div class="site-footer__bottom-right">
+                                    <p>© Copyright 2023 by House Party by United. Designed by Team <a
+                                            href="https://zolov.io/">Zolov.io </a></p>
+                                </div>
+                                <div class="site-footer__bottom-left-arrow">
+                                    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><span
+                                            class="icon-right-arrow"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--Site Footer One End-->
+
+
+    </div><!-- /.page-wrapper -->
+
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+            <div class="logo-box">
+                <a href="index.html" aria-label="logo image"><img src="assets/img/logo.png" width="155" alt="" /></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:Cheers@housepartybyunited.com">Cheers@housepartybyunited.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a href="tel:+91 85912 60648">+91 85912 60648</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__top">
+                <div class="mobile-nav__social">
+
+                    <a href="https://instagram.com/houseparty_byunited?igshid=MzRlODBiNWFlZA=="
+                        class="fab fa-instagram"></a>
+                </div><!-- /.mobile-nav__social -->
+            </div><!-- /.mobile-nav__top -->
+
+
+
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form action="#">
+                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+                <input type="text" id="search" placeholder="Search Here..." />
+                <button type="submit" aria-label="search submit" class="thm-btn">
+                    <i class="icon-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+
+   
+
+    <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendors/odometer/odometer.min.js"></script>
+    <script src="assets/vendors/swiper/swiper.min.js"></script>
+    <script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/countdown/countdown.min.js"></script>
+    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendors/twentytwenty/twentytwenty.js"></script>
+    <script src="assets/vendors/twentytwenty/jquery.event.move.js"></script>
+    <script src="assets/vendors/bxslider/jquery.bxslider.min.js"></script>
+    <script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="assets/vendors/vegas/vegas.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/timepicker/timePicker.js"></script>
+
+
+
+
+
+    <!-- template js -->
+    <script src="assets/js/tevily.js"></script>
+</body>
+
+</html>

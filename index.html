@@ -1,0 +1,1769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>House Party By United</title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/Capture-removebg-preview.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/Capture-removebg-preview.png" />
+    <link rel="manifest" href="assets/img/Capture-removebg-preview.png" />
+
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
+    <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
+    <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="assets/vendors/tevily-icons/style.css">
+    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.min.css" />
+    <link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/vendors/twentytwenty/twentytwenty.css" />
+    <link rel="stylesheet" href="assets/vendors/bxslider/jquery.bxslider.css" />
+    <link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="assets/vendors/vegas/vegas.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/tevily.css" />
+    <link rel="stylesheet" href="assets/css/tevily-responsive.css" />
+    <style>
+        .testimonial-one__text {
+
+            line-height: 28px;
+            padding-top: 18px;
+            padding-bottom: 18px;
+        }
+
+        .popover {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 700px;
+            /* Increased width to 800px */
+            max-width: 90%;
+            height: 450px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 1px solid #ccc;
+            padding: 20px;
+            display: none;
+            z-index: 100;
+            backdrop-filter: blur(4px);
+        }
+
+
+        .popover-content {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        #Button2 {
+            width: 158px;
+            margin-left: 121px;
+        }
+
+        #Button1 {
+            margin-left: -10px;
+            margin-top: 10px;
+        }
+
+        .box {
+            transition: 1s;
+        }
+
+        .box:hover {
+            transform: scale(1.2);
+        }
+
+        .tour-search {
+            margin-top: -104px;
+        }
+
+        .icon2 {
+            margin-top: -102px;
+        }
+
+        .main-header__top-address li .text a:hover {
+            color: #df0915;
+        }
+
+        .counterBox1 {
+            width: 1367px;
+            margin-left: -38px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .icon2 {
+                margin-top: -67px !important;
+            }
+
+            .counterBox1 {
+                width: 425px !important;
+                margin-left: -38px !important;
+            }
+
+            .brandClass2 {
+                margin-top: 116px !important;
+                margin-left: -154px !important;
+            }
+
+            .brandClass1 {
+                margin-left: -215px !important;
+            }
+
+            .three-icon-box {
+                margin-top: 303px !important;
+            }
+
+            .main-box {
+                margin-top: 85px !important;
+            }
+
+            .btns {
+                margin-bottom: 20px !important;
+            }
+
+            .gal-img {
+                width: 87% !important;
+
+            }
+
+            .gal-img2 {
+                height: 265px !important;
+            }
+        }
+
+        .gal-img2 {
+            height: 245px;
+        }
+
+        .loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+        }
+
+        #loader-video {
+            width: 40vw;
+            height: 40vh;
+            object-fit: cover;
+        }
+
+        .Whatsupbuttn {
+            position: fixed;
+            right: 30px;
+            bottom: 5px;
+            height: auto;
+            background: #9990;
+            z-index: 1001;
+        }
+
+        .gallery-one__content li {
+            position: relative;
+            display: block;
+            float: left;
+            width: 114%;
+            padding: 0 5px 0;
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .singapore-tour__content {
+                padding-left: 79px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="loader" id="loader">
+        <video id="loader-video" width="100%" height="240" muted>
+            <source src="assets/house-party-by-uunited-video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var loader = document.getElementById("loader");
+            var loaderVideo = document.getElementById("loader-video");
+
+            // Play the loader video
+            loaderVideo.play();
+
+            // Hide the loader and show the website content after 10 seconds
+            setTimeout(function () {
+                loader.style.display = "none";
+                // You may add additional logic to show the website content here
+            }, 10000);
+        });
+
+    </script>
+    <!-- /.preloader -->
+
+
+
+    <div class="page-wrapper">
+        <header class="main-header clearfix">
+            <div class="main-header__top">
+                <div class="container">
+                    <div class="main-header__top-inner clearfix">
+                        <div class="main-header__top-left">
+                            <ul class="list-unstyled main-header__top-address">
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-phone-call"></span>
+                                    </div>
+                                    <div class="text">
+                                        <a href="tel:+91 85912 60648">+91 85912 60648</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-at"></span>
+                                    </div>
+                                    <div class="text">
+                                        <a href="mailto:Cheers@housepartybyunited.com">Cheers@housepartybyunited.com</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main-header__top-right">
+                            <div class="main-header__top-right-inner">
+                                <div class="main-header__top-right-social">
+
+                                    <a href="https://instagram.com/houseparty_byunited?igshid=MzRlODBiNWFlZA=="><i
+                                            class="fab fa-instagram"></i></a>
+
+                                </div>
+                                <div class="main-header__top-right-btn-box">
+                                    <a href="registration.html" class="thm-btn main-header__top-right-btn">Attend a Party</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="main-menu clearfix">
+                <div class="main-menu-wrapper clearfix">
+                    <div class="container clearfix">
+                        <div class="main-menu-wrapper-inner clearfix">
+                            <div class="main-menu-wrapper__left clearfix">
+                                <div class="main-menu-wrapper__logo">
+                                    <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                                </div>
+                                <div class="main-menu-wrapper__main-menu">
+                                    <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                                    <ul class="main-menu__list">
+                                        <li class="dropdown current">
+                                            <a href="index.html">Home</a>
+
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="attend-a-party.html">Attend A Party</a>
+
+                                        </li>
+
+                                        <li class="dropdown">
+                                            <a href="host-a-party.html">Host A Party</a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="list-a-place.html">List a Place</a>
+
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="about.html">About</a>
+
+                                        </li>
+
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="main-menu-wrapper__right">
+                                <a href="#" class="main-menu__search search-toggler icon-magnifying-glass"></a>
+                                <div class="appointment" style="text-align:center;">
+                                    <button type="button" class="xyz" onclick="showPopover()" style="color: red;border: 2px solid white;
+                                        background: white;">
+                                        <a href="registration.html" class="main-menu__user icon-avatar"></a>
+                                    </button>
+                                </div>
+                            </div>
+
+
+                            <div id="popover" class="popover">
+                                <div class="popover-content">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <img src="assets/img/get-to-know-us1.jpg"
+                                                style="height: 450px;width: 327px;margin-top: -21px;margin-left: -21px;border-radius: 5px;">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <form>
+                                                <h2>Login</h2>
+                                                <div style="margin-left: 303px;
+                                                margin-top: -48px;">
+                                                    <button type="button" data-dismiss="modal" style="font-weight:bold;"
+                                                        onclick="hidePopover()">X</button>
+                                                </div>
+
+                                                <div class="mb-3" style="margin-top: 67px;">
+                                                    <label for="exampleInputEmail1" class="form-label">Email
+                                                        address</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                                        aria-describedby="emailHelp">
+
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="exampleInputPassword1"
+                                                        class="form-label">Password</label>
+                                                    <input type="password" class="form-control"
+                                                        id="exampleInputPassword1">
+                                                </div>
+
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                                <a href="" style="margin-left: 20px;">Forget Password</a><br>
+                                                <h4 style="  margin-left: 114px;">OR</h4>
+                                                <button type="submit" class="btn btn-primary"
+                                                    style="margin-left: 87px;margin-top: 22px;">Register</button>
+
+                                            </form>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                function showPopover() {
+                                    var popover = document.getElementById('popover');
+                                    popover.style.display = 'block';
+                                    document.body.style.overflow = 'hidden';
+                                }
+
+                                function hidePopover() {
+                                    var popover = document.getElementById('popover');
+                                    popover.style.display = 'none';
+                                    document.body.style.overflow = 'auto';
+                                }
+
+
+                            </script>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+
+        <!--Main Slider Start-->
+        <section class="main-slider">
+            <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
+    "effect": "fade",
+    "pagination": {
+        "el": "#main-slider-pagination",
+        "type": "bullets",
+        "clickable": true
+      },
+    "navigation": {
+        "nextEl": ".main-slider-button-next",
+        "prevEl": ".main-slider-button-prev",
+        "clickable": true
+    },
+    "autoplay": {
+        "delay": 5000
+    }}'>
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="image-layer" style="background-image: url(assets/img/pic2-min.jpg);">
+                        </div>
+                        <div class="image-layer-overlay"></div>
+                        <div class="container">
+                            <div class="swiper-slide-inner">
+                                <div class="row">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-layer" style="background-image: url(assets/img/pic3-min.jpg);"></div>
+                        <div class="image-layer-overlay"></div>
+                        <div class="container">
+                            <div class="swiper-slide-inner">
+                                <div class="row">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-layer" style="background-image: url(assets/img/pic1-min.jpg);"></div>
+                        <div class="image-layer-overlay"></div>
+                        <div class="container">
+                            <div class="swiper-slide-inner">
+                                <div class="row">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-slider-nav">
+                    <div class="main-slider-button-prev"><span class="icon-right-arrow"></span></div>
+                    <div class="main-slider-button-next"><span class="icon-right-arrow"></span> </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Tour Search Start-->
+        <section class="tour-search">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 main-box">
+                        <div class="tour-search-box">
+                            <form class="tour-search-one" action="tour-sidebar.html">
+                                <div class="tour-search-one__inner" style="    height: 91px;">
+                                    <div class="tour-search-one__inputs">
+                                        <div class="tour-search-one__input-box" style="    margin-top: 20px;">
+
+                                            <label for="place">Where to</label>
+                                            <input type="text" placeholder="Enter keywords" name="place" id="place">
+                                        </div>
+                                        <div class="tour-search-one__input-box" style="    margin-top: 20px;">
+                                            <label>When</label>
+                                            <input type="text" placeholder="September" name="when" id="datepicker">
+                                        </div>
+                                        <div class="tour-search-one__input-box tour-search-one__input-box-last"
+                                            style="    margin-top: 20px;">
+                                            <label for="type">Type</label>
+                                            <select class="selectpicker" id="type">
+                                                <option value="Adventure">Location</option>
+                                                <option value="Wildlife">Mumbai</option>
+                                                <option value="Sightseeing">Pune</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="tour-search-one__btn-wrap" style="    height: 92px;margin-top: -7px;">
+                                        <button type="submit" class="thm-btn tour-search-one__btn">Find now</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Tour Search End-->
+
+        <!--Three Icon Box Start-->
+        <section class="three-icon-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
+                        <!--Three Icon Box Single-->
+                        <div class="three-icon-box__single">
+                            <div class="three-icon-box__icon">
+                                <span class="icon-booking"></span>
+                            </div>
+                            <div class="three-icon-box__content">
+                                <h4 class="three-icon-box__title">ATTEND A HOUSE PARTY </h4>
+                                <p class="three-icon-box__text">Send a request to attend and be a part of one-of-a-kind
+                                    events every time. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+                        <!--Three Icon Box Single-->
+                        <div class="three-icon-box__single">
+                            <div class="three-icon-box__icon">
+                                <span class="icon-cashback"></span>
+                            </div>
+                            <div class="three-icon-box__content">
+                                <h4 class="three-icon-box__title">START EARNING NOW </h4>
+                                <p class="three-icon-box__text">Hosting a party or listing your space allows you to make
+                                    additional money while having fun. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
+                        <!--Three Icon Box Single-->
+                        <div class="three-icon-box__single">
+                            <div class="three-icon-box__icon">
+                                <span><i class="fa-solid fa-people-carry-box"></i></span>
+                            </div>
+                            <div class="three-icon-box__content">
+                                <h4 class="three-icon-box__title">BOOZE ON DEMAND </h4>
+                                <p class="three-icon-box__text">Choose a theme, establish a pricing, take bookings, and
+                                    meet new people.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Three Icon Box End-->
+
+
+        <!--Popular Tours Two Start-->
+        <section class="popular-tours-two">
+            <div class="container" style="margin-top: -76px;">
+                <div class="section-title text-center">
+                    <span class="section-title__tagline" style="font-family: Condiment, Sans-serif;">Featured
+                        Parties</span>
+                    <h2 class="section-title__title">Parties This Weekend </h2>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                        <!--Popular Tours Two Single-->
+                        <div class="popular-tours__single">
+                            <div class="popular-tours__img">
+                                <img src="assets/img/party1.jpeg" alt="">
+                                <div class="popular-tours__icon">
+                                    <a href="party-details.html">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="popular-tours__content">
+                                <div class="popular-tours__stars">
+                                    <i class="fa fa-star"></i> 8.0 Superb
+                                </div>
+                                <h3 class="popular-tours__title"><a href="party-details.html">Back to the 90s</a></h3>
+                                <p class="popular-tours__rate"><span>₹ 870</span> / Per Person</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                        <!--Popular Tours Two Single-->
+                        <div class="popular-tours__single">
+                            <div class="popular-tours__img">
+                                <img src="assets/img/party2.jpeg" alt="">
+                                <div class="popular-tours__icon">
+                                    <a href="party-details.html">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="popular-tours__content">
+                                <div class="popular-tours__stars">
+                                    <i class="fa fa-star"></i> 8.0 Superb
+                                </div>
+                                <h3 class="popular-tours__title"><a href="party-details.html">Black and White
+                                        Socials</a></h3>
+                                <p class="popular-tours__rate"><span>₹ 870</span> / Per Person</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                        <!--Popular Tours Two Single-->
+                        <div class="popular-tours__single">
+                            <div class="popular-tours__img">
+                                <img src="assets/img/party3.jpg" alt="">
+                                <div class="popular-tours__icon">
+                                    <a href="party-details.html">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="popular-tours__content">
+                                <div class="popular-tours__stars">
+                                    <i class="fa fa-star"></i> 8.0 Superb
+                                </div>
+                                <h3 class="popular-tours__title"><a href="party-details.html">Patners in Crime</a></h3>
+                                <p class="popular-tours__rate"><span>₹ 870</span> / Per Person</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--Popular Tours Two End-->
+
+
+
+        <!--Singapore Tour Start-->
+        <div class="singapore-tour" style="    margin-top: -44px;">
+            <div class="singapore-tour__container">
+                <div class="singapore-tour__left">
+                    <div class="singapore-tour-bg"
+                        style="background-image: url(assets/img/start-earning-host-party.jpg)"></div>
+                </div>
+                <div class="singapore-tour__right" style="height: 508px;">
+                    <div class="singapore-tour-right-shape"
+                        style="background-image: url(assets/images/shapes/singapore-tour-right-shape.png)"></div>
+                    <div class="singapore-tour__content">
+                        <h2 class="singapore-tour__title"
+                            style="font-family: Condiment, Sans-serif;margin-left: -77px;">Plan your party with us</h2>
+                        <p class="singapore-tour__text" style="margin-left: -34px;">Ready for an unforgetable Party?</p>
+                        <a href="attend-a-party.html" class="thm-btn singapore-tour__btn">PARTIES THIS WEEKEND</a>
+                    </div>
+                    <div class="singapore-tour__trusted">
+                        <p>Trusted by</p>
+                        <h2 class="odometer" data-count="4890">00</h2>
+                        <div class="singapore-tour__trusted-icon">
+                            <i class="fas fa-sort-up"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Singapore Tour End-->
+
+        <!--Video Two Start-->
+        <div class="video-two" style="margin-top: -62px;">
+            <div class="video-two-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
+                style="background-image: url(assets/img/house-party5.jpg)"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="video-two__inner">
+                            <div class="video-one__video-link">
+                                <a href="assets/img/vdo1.gif" class="video-popup">
+                                    <div class="video-one__video-icon">
+                                        <span class="icon-play-button"></span>
+                                        <i class="ripple"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <p class="video-one__tagline" style="font-family: Condiment, Sans-serif;">Are you ready to
+                                list your place?</p>
+                            <h2 class="video-one__title">Allow your home's vacant spots to make money for you. Whether
+                                it's the living room, the patio, or the garden.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Video Two End-->
+        <!--Counter One Start-->
+        <div class="counter-one">
+            <div class="counter-one__container">
+                <ul class="list-unstyled counters-one__box counterBox1">
+                    <li class="counter-one__single wow fadeInUp" data-wow-delay="100ms">
+                        <h3 class="odometer" data-count="870">00</h3>
+                        <p class="counter-one__text">Total Parties </p>
+                    </li>
+                    <li class="counter-one__single wow fadeInUp" data-wow-delay="200ms">
+                        <h3 class="odometer" data-count="480">00</h3>
+                        <p class="counter-one__text">Happy Hosts </p>
+                    </li>
+                    <li class="counter-one__single wow fadeInUp" data-wow-delay="300ms">
+                        <h3 class="odometer" data-count="930">00</h3>
+                        <p class="counter-one__text">Places Listed </p>
+                    </li>
+                    <li class="counter-one__single wow fadeInUp" data-wow-delay="400ms">
+                        <h3 class="odometer" data-count="63">00</h3>
+                        <p class="counter-one__text">Happy People </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--Counter One End-->
+
+
+
+        <!--Destinations Two Start-->
+        <section class="destinations-two">
+            <div class="destinations-two-shape wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
+
+            </div>
+            <div class="container">
+                <div class="destinations-two__top">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="destinations-two__top-left" style="text-align: center;">
+                                <div class="section-title text-left">
+                                    <span class="section-title__tagline"
+                                        style="font-family: Condiment, Sans-serif;">Parties With Us</span>
+                                    <h2 class="section-title__title" style="line-height: 80px;">House Party<br> by
+                                        United</h2>
+
+                                </div>
+                                <a href="attend-a-party.html" class="thm-btn destinations-two__btn btns" style="background: #db0712;
+                                color: white;">View Parties</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6">
+                                    <!--Destinations Two Single-->
+                                    <div class="destinations-two__top-single wow fadeInUp" data-wow-delay="100ms">
+                                        <div class="destinations-two__top-img">
+                                            <img src="assets/img/house-party1.JPG" alt="">
+                                            <div class="destinations-two__top-content">
+                                                <h2 class="destinations-two__top-title"><a href="party-details.html"
+                                                        style="    font-size: 24px;">Back to the 90s</a></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6">
+                                    <!--Destinations Two Single-->
+                                    <div class="destinations-two__top-single wow fadeInUp" data-wow-delay="200ms">
+                                        <div class="destinations-two__top-img">
+                                            <img src="assets/img/house-party2.JPG" alt="">
+                                            <div class="destinations-two__top-content">
+
+                                                <h2 class="destinations-two__top-title"><a href="party-details.html"
+                                                        style="    font-size: 24px;">Black and White Socials</a></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="destinations-two__bottom">
+
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                            <div class="row">
+
+                                <div class="col-xl-6 col-lg-6">
+                                    <!--Destinations Two Single-->
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6">
+                                    <!--Destinations Two Single-->
+                                    <div class="destinations-two__top-single wow fadeInUp" data-wow-delay="100ms">
+                                        <div class="destinations-two__top-img">
+                                            <img src="assets/img/house-party3.JPG" alt="">
+                                            <div class="destinations-two__top-content">
+                                                <h2 class="destinations-two__top-title"><a href="party-details.html"
+                                                        style="    font-size: 24px;">Patners in
+                                                        Crime</a></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6">
+                                    <!--Destinations Two Single-->
+                                    <div class="destinations-two__top-single wow fadeInUp" data-wow-delay="200ms">
+                                        <div class="destinations-two__top-img">
+                                            <img src="assets/img/house-party4.JPG" alt="">
+                                            <div class="destinations-two__top-content">
+
+                                                <h2 class="destinations-two__top-title"><a href="party-details.html"
+                                                        style="    font-size: 24px;">Mafia</a>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Destinations Two End-->
+
+        <!--Tour Types Start-->
+        <section class="tour-types" style="margin-top: -46px;">
+            <div class="container" style="margin-top: -73px;">
+                <div class="tour-types-map" style="background-image: url(assets/images/shapes/tour-types-map.png)">
+                </div>
+                <div class="section-title text-center">
+                    <span class="section-title__tagline" style="font-family: Condiment, Sans-serif;">Why Us?</span>
+                    <h2 class="section-title__title">Convenient, Safe, and Secured!</h2>
+                </div>
+                <ul class="list-unstyled tour-types_list">
+                    <li class="tour-types__single wow fadeInUp" data-wow-delay="100ms">
+                        <div class="tour-types__content">
+                            <div class="tour-types__icon">
+                                <i class="fa-brands fa-google-pay"></i>
+                            </div>
+                            <h4 class="tour-types__title">Secure Payments</h4>
+                        </div>
+                    </li>
+                    <li class="tour-types__single wow fadeInUp" data-wow-delay="200ms">
+                        <div class="tour-types__content">
+                            <div class="tour-types__icon">
+                                <i class="fa-regular fa-address-card"></i>
+                            </div>
+                            <h4 class="tour-types__title">Screened Profiles</h4>
+                        </div>
+                    </li>
+                    <li class="tour-types__single wow fadeInUp" data-wow-delay="300ms">
+                        <div class="tour-types__content">
+                            <div class="tour-types__icon">
+                                <i class="fa-solid fa-magnifying-glass-location"></i>
+                            </div>
+                            <h4 class="tour-types__title">Verified Places</h4>
+                        </div>
+                    </li>
+                    <li class="tour-types__single wow fadeInUp" data-wow-delay="400ms">
+                        <div class="tour-types__content">
+                            <div class="tour-types__icon">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+                            <h4 class="tour-types__title">Support Team</h4>
+                        </div>
+                    </li>
+                    <li class="tour-types__single wow fadeInUp" data-wow-delay="500ms">
+                        <div class="tour-types__content">
+                            <div class="tour-types__icon">
+                                <i class="fa-solid fa-handshake"></i>
+                            </div>
+                            <h4 class="tour-types__title">Trusted Partners</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--Tour Types End-->
+
+        <!--Book Now Start-->
+        <section class="book-now">
+            <div class="book-now-shape" style="background-image: url(assets/images/shapes/book-now-shape.png)"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="book-now__inner">
+                            <div class="book-now__left">
+                                <p style="font-family: Condiment, Sans-serif;">Discover the Extraordinary</p>
+                                <h2>List a Place and Unlock Boundless Opportunities!</h2>
+                            </div>
+                            <div class="book-now__right">
+                                <a href="list-a-place.html" class="thm-btn book-now__btn" style="width: 233px;padding: 11px 54px 13px;">List a
+                                    Place </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Book Now End-->
+
+
+
+        <!--Testimonial One Start-->
+        <section class="testimonial-one">
+            <div class="testimonial-one-shape-2 float-bob-y">
+
+            </div>
+            <div class="testimonial-one-shape-3 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
+                <img src="" alt="">
+            </div>
+            <div class="container" style="margin-top: -71px;">
+                <div class="section-title text-center">
+                    <span class="section-title__tagline" style="font-family: Condiment, Sans-serif;">Testimonials &
+                        reviews</span>
+                    <h2 class="section-title__title">What They’re Saying</h2>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="testimonial-one__carousel owl-theme owl-carousel">
+                            <div class="testimonial-one__single">
+                                <div class="testimonial-one__img">
+                                    <img src="assets/img/kushal1.jpg" alt="">
+                                </div>
+                                <div class="testimonail-one__content" style="height: 784px;">
+                                    <div class="testimonial-one__top-revivew-box">
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                    </div>
+                                    <p class="testimonial-one__text">To arrange my own special events with different
+                                        themes, and hosting new people is always a pleasure. It's been wonderful making
+                                        new people who share interests. The emphasis on safety also eases my mind. My
+                                        social network has grown because of Houseparty, and I've made priceless moments
+                                        that I'll cherish forever. For anyone wishing to go out try something new and
+                                        meeting new people with some enjoyable and sincere interactions, I heartily
+                                        recommend it!</p>
+                                    <div class="testimonial-one__client-info" style="  margin-top: 108px;">
+                                        <h3 class="testimonial-one__client-name">Kushal</h3>
+                                        <p class="testimonial-one__client-title">Customer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-one__single">
+                                <div class="testimonial-one__img">
+                                    <img src="assets/img/vivek.jpeg" alt="">
+                                </div>
+                                <div class="testimonail-one__content" style="height: 785px;">
+                                    <div class="testimonial-one__top-revivew-box">
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                    </div>
+                                    <p class="testimonial-one__text">Hosting with houseparty by united was a spontaneous
+                                        decision but it was one of the best decisions I've made lately! It is so much
+                                        better than usual clubbing and drinking scenes.the Houseparty crew was super
+                                        warm and helped me throughout the event. I could feel the vibe growing as the
+                                        guests arrived, and everyone was genuinely excited to interact and have a good
+                                        time. If you or your gang is looking for a space to chill/party or want to host
+                                        an event idts there’s a better option with sucha smooth experience available out
+                                        there right now.
+                                    </p>
+                                    <div class="testimonial-one__client-info" style="margin-top: 54px;">
+                                        <h3 class="testimonial-one__client-name">Vivek</h3>
+                                        <p class="testimonial-one__client-title">Customer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-one__single">
+                                <div class="testimonial-one__img">
+                                    <img src="assets/img/kunal.jpg" alt="">
+                                </div>
+                                <div class="testimonail-one__content">
+                                    <div class="testimonial-one__top-revivew-box">
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                    </div>
+                                    <p class="testimonial-one__text">To be honest is did not expect the event to be this
+                                        fun! The atmosphere was fantastic from the time I walked in, and the organizers
+                                        had thought of every aspect. The vibe was just fantastic, and I found myself
+                                        dancing and laughing the entire night which is pretty rare. The folks who hosted
+                                        the event were super warm and the people at the party were easy to gel in which
+                                        added to the enjoyment, and I met some wonderful folks.it is far far better
+                                        experience than clubbing or pub hopping if you’re someone who likes to sit back
+                                        relax but also wants to dance and drink, I would suggest it to anyone looking to
+                                        have a great time.</p>
+                                    <div class="testimonial-one__client-info">
+                                        <h3 class="testimonial-one__client-name">Kunal</h3>
+                                        <p class="testimonial-one__client-title">Customer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-one__single">
+                                <div class="testimonial-one__img">
+                                    <img src="assets/img/kushal1.jpg" alt="">
+                                </div>
+                                <div class="testimonail-one__content" style="height: 784px;">
+                                    <div class="testimonial-one__top-revivew-box">
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                    </div>
+                                    <p class="testimonial-one__text">To arrange my own special events with different
+                                        themes, and hosting new people is always a pleasure. It's been wonderful making
+                                        new people who share interests. The emphasis on safety also eases my mind. My
+                                        social network has grown because of Houseparty, and I've made priceless moments
+                                        that I'll cherish forever. For anyone wishing to go out try something new and
+                                        meeting new people with some enjoyable and sincere interactions, I heartily
+                                        recommend it!</p>
+                                    <div class="testimonial-one__client-info" style="  margin-top: 108px;">
+                                        <h3 class="testimonial-one__client-name">Kushal</h3>
+                                        <p class="testimonial-one__client-title">Customer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-one__single">
+                                <div class="testimonial-one__img">
+                                    <img src="assets/img/vivek.jpeg" alt="">
+                                </div>
+                                <div class="testimonail-one__content" style="height: 785px;">
+                                    <div class="testimonial-one__top-revivew-box">
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                    </div>
+                                    <p class="testimonial-one__text">Hosting with houseparty by united was a spontaneous
+                                        decision but it was one of the best decisions I've made lately! It is so much
+                                        better than usual clubbing and drinking scenes.the Houseparty crew was super
+                                        warm and helped me throughout the event. I could feel the vibe growing as the
+                                        guests arrived, and everyone was genuinely excited to interact and have a good
+                                        time. If you or your gang is looking for a space to chill/party or want to host
+                                        an event idts there’s a better option with sucha smooth experience available out
+                                        there right now.
+                                    </p>
+                                    <div class="testimonial-one__client-info" style="margin-top: 54px;">
+                                        <h3 class="testimonial-one__client-name">Vivek</h3>
+                                        <p class="testimonial-one__client-title">Customer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-one__single">
+                                <div class="testimonial-one__img">
+                                    <img src="assets/img/kunal.jpg" alt="">
+                                </div>
+                                <div class="testimonail-one__content">
+                                    <div class="testimonial-one__top-revivew-box">
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                    </div>
+                                    <p class="testimonial-one__text">To be honest is did not expect the event to be this
+                                        fun! The atmosphere was fantastic from the time I walked in, and the organizers
+                                        had thought of every aspect. The vibe was just fantastic, and I found myself
+                                        dancing and laughing the entire night which is pretty rare. The folks who hosted
+                                        the event were super warm and the people at the party were easy to gel in which
+                                        added to the enjoyment, and I met some wonderful folks.it is far far better
+                                        experience than clubbing or pub hopping if you’re someone who likes to sit back
+                                        relax but also wants to dance and drink, I would suggest it to anyone looking to
+                                        have a great time.</p>
+                                    <div class="testimonial-one__client-info">
+                                        <h3 class="testimonial-one__client-name">Kunal</h3>
+                                        <p class="testimonial-one__client-title">Customer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-one__single">
+                                <div class="testimonial-one__img">
+                                    <img src="assets/img/kushal1.jpg" alt="">
+                                </div>
+                                <div class="testimonail-one__content" style="height: 784px;">
+                                    <div class="testimonial-one__top-revivew-box">
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                    </div>
+                                    <p class="testimonial-one__text">To arrange my own special events with different
+                                        themes, and hosting new people is always a pleasure. It's been wonderful making
+                                        new people who share interests. The emphasis on safety also eases my mind. My
+                                        social network has grown because of Houseparty, and I've made priceless moments
+                                        that I'll cherish forever. For anyone wishing to go out try something new and
+                                        meeting new people with some enjoyable and sincere interactions, I heartily
+                                        recommend it!</p>
+                                    <div class="testimonial-one__client-info" style="  margin-top: 108px;">
+                                        <h3 class="testimonial-one__client-name">Kushal</h3>
+                                        <p class="testimonial-one__client-title">Customer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-one__single">
+                                <div class="testimonial-one__img">
+                                    <img src="assets/img/vivek.jpeg" alt="">
+                                </div>
+                                <div class="testimonail-one__content" style="height: 785px;">
+                                    <div class="testimonial-one__top-revivew-box">
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                    </div>
+                                    <p class="testimonial-one__text">Hosting with houseparty by united was a spontaneous
+                                        decision but it was one of the best decisions I've made lately! It is so much
+                                        better than usual clubbing and drinking scenes.the Houseparty crew was super
+                                        warm and helped me throughout the event. I could feel the vibe growing as the
+                                        guests arrived, and everyone was genuinely excited to interact and have a good
+                                        time. If you or your gang is looking for a space to chill/party or want to host
+                                        an event idts there’s a better option with sucha smooth experience available out
+                                        there right now.
+                                    </p>
+                                    <div class="testimonial-one__client-info" style="margin-top: 54px;">
+                                        <h3 class="testimonial-one__client-name">Vivek</h3>
+                                        <p class="testimonial-one__client-title">Customer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-one__single">
+                                <div class="testimonial-one__img">
+                                    <img src="assets/img/kunal.jpg" alt="">
+                                </div>
+                                <div class="testimonail-one__content">
+                                    <div class="testimonial-one__top-revivew-box">
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                        <i class="fa fa-star" style="color: #ffa801;"></i>
+                                    </div>
+                                    <p class="testimonial-one__text">To be honest is did not expect the event to be this
+                                        fun! The atmosphere was fantastic from the time I walked in, and the organizers
+                                        had thought of every aspect. The vibe was just fantastic, and I found myself
+                                        dancing and laughing the entire night which is pretty rare. The folks who hosted
+                                        the event were super warm and the people at the party were easy to gel in which
+                                        added to the enjoyment, and I met some wonderful folks.it is far far better
+                                        experience than clubbing or pub hopping if you’re someone who likes to sit back
+                                        relax but also wants to dance and drink, I would suggest it to anyone looking to
+                                        have a great time.</p>
+                                    <div class="testimonial-one__client-info">
+                                        <h3 class="testimonial-one__client-name">Kunal</h3>
+                                        <p class="testimonial-one__client-title">Customer</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Testimonial One End-->
+
+        <!--Gallery One Start-->
+        <section class="gallery-one">
+            <div class="gallery-one-bg" style="background-image: url(assets/images/shapes/gallery-map.png)"></div>
+            <div class="popular-tours__carousel owl-theme owl-carousel">
+
+                <div class="gallery-one__container-box clearfix">
+                    <ul class="list-unstyled gallery-one__content clearfix">
+                        <li class="wow fadeInUp" data-wow-delay="300ms">
+                            <div class="gallery-one__img-box">
+                                <img src="assets/img/gallery1.JPG" alt="" class="gal-img">
+                                <div class="gallery-one__iocn">
+                                    <a class="img-popup" href="assets/img/gallery1.JPG"><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="gallery-one__container-box clearfix">
+                    <ul class="list-unstyled gallery-one__content clearfix">
+                        <li class="wow fadeInUp" data-wow-delay="300ms">
+                            <div class="gallery-one__img-box">
+                                <img src="assets/img/gallery2.JPG" alt="" class="gal-img">
+                                <div class="gallery-one__iocn">
+                                    <a class="img-popup" href="assets/img/gallery2.JPG"><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="gallery-one__container-box clearfix">
+                    <ul class="list-unstyled gallery-one__content clearfix">
+                        <li class="wow fadeInUp" data-wow-delay="300ms">
+                            <div class="gallery-one__img-box">
+                                <img src="assets/img/gallery3.JPG" alt="" class="gal-img">
+                                <div class="gallery-one__iocn">
+                                    <a class="img-popup" href="assets/img/gallery3.JPG"><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="gallery-one__container-box clearfix">
+                    <ul class="list-unstyled gallery-one__content clearfix">
+                        <li class="wow fadeInUp" data-wow-delay="300ms">
+                            <div class="gallery-one__img-box">
+                                <img src="assets/img/gallery4.JPG" alt="" class="gal-img">
+                                <div class="gallery-one__iocn">
+                                    <a class="img-popup" href="assets/img/gallery4.JPG"><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="gallery-one__container-box clearfix">
+                    <ul class="list-unstyled gallery-one__content clearfix">
+                        <li class="wow fadeInUp" data-wow-delay="300ms">
+                            <div class="gallery-one__img-box">
+                                <img src="assets/img/gallery5.JPG" alt="" class="gal-img">
+                                <div class="gallery-one__iocn">
+                                    <a class="img-popup" href="assets/img/gallery5.JPG"><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="gallery-one__container-box clearfix">
+                    <ul class="list-unstyled gallery-one__content clearfix">
+                        <li class="wow fadeInUp" data-wow-delay="300ms">
+                            <div class="gallery-one__img-box">
+                                <img src="assets/img/gal01-min.jpg" alt="" class="gal-img gal-img2">
+                                <div class="gallery-one__iocn">
+                                    <a class="img-popup" href="assets/img/gal01-min.jpg"><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="gallery-one__container-box clearfix">
+                    <ul class="list-unstyled gallery-one__content clearfix">
+                        <li class="wow fadeInUp" data-wow-delay="300ms">
+                            <div class="gallery-one__img-box">
+                                <img src="assets/img/gall2-min.jpg" alt="" class="gal-img gal-img2">
+                                <div class="gallery-one__iocn">
+                                    <a class="img-popup" href="assets/img/gall2-min.jpg"><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="gallery-one__container-box clearfix">
+                    <ul class="list-unstyled gallery-one__content clearfix">
+                        <li class="wow fadeInUp" data-wow-delay="300ms">
+                            <div class="gallery-one__img-box">
+                                <img src="assets/img/gall3-min.jpg" alt="" class="gal-img gal-img2">
+                                <div class="gallery-one__iocn">
+                                    <a class="img-popup" href="assets/img/gall3-min.jpg"><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="gallery-one__container-box clearfix">
+                    <ul class="list-unstyled gallery-one__content clearfix">
+                        <li class="wow fadeInUp" data-wow-delay="300ms">
+                            <div class="gallery-one__img-box">
+                                <img src="assets/img/gall4-min.jpg" alt="" class="gal-img gal-img2">
+                                <div class="gallery-one__iocn">
+                                    <a class="img-popup" href="assets/img/gall4-min.jpg"><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+        <!--Gallery Oned End-->
+
+
+        <!--Destinations Details Start-->
+        <section class="destinations-details">
+            <div class="container" style="
+            margin-top: -50px;">
+                <div class="section-title text-center">
+
+                    <h2 class="section-title__title">FAQ's</h2>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="destinations-details__left">
+                            <div class="destinations-details__faq">
+                                <div class="accrodion-grp" data-grp-name="faq-one-accrodion">
+                                    <div class="accrodion ">
+                                        <div class="accrodion-title">
+                                            <h4>What is House Party By United?</h4>
+                                        </div>
+                                        <div class="accrodion-content">
+                                            <div class="inner">
+                                                <p>House Party by United is an exciting platform that brings the thrill
+                                                    of a house party to a
+                                                    whole new level. It's your ultimate destination to discover and
+                                                    purchase tickets for
+                                                    exclusive house parties or list your place to be hosted by
+                                                    passionate individuals. Get
+                                                    ready to immerse yourself in an unforgettable experience, connecting
+                                                    with like-minded
+                                                    party-goers and enjoying the pulsating energy of intimate
+                                                    gatherings. House Party by
+                                                    United is where unforgettable memories are made.
+                                                </p>
+                                            </div><!-- /.inner -->
+                                        </div>
+                                    </div>
+                                    <div class="accrodion">
+                                        <div class="accrodion-title">
+                                            <h4>How do I create an event ?</h4>
+                                        </div>
+                                        <div class="accrodion-content">
+                                            <div class="inner">
+                                                <p>Click on the button that says "host a party" or contact us on +91
+                                                    8591260648
+                                                    Once you navigate yourself to the page, Fill out the required
+                                                    information about your
+                                                    event, and any additional details or instructions. Choose the
+                                                    appropriate event category
+                                                    or genre to help potential attendees find your event. Submit the
+                                                    event for review, and
+                                                    publish it. Once your event is created, it should be listed on the
+                                                    House Party By United
+                                                    website, and interested users can purchase tickets to attend.
+                                                </p>
+                                            </div><!-- /.inner -->
+                                        </div>
+                                    </div>
+                                    <div class="accrodion last-chiled">
+                                        <div class="accrodion-title">
+                                            <h4>Can I invite guests through the house party website?</h4>
+                                        </div>
+                                        <div class="accrodion-content">
+                                            <div class="inner">
+                                                <p>If you are hosting a party you will be able to review profiles of
+                                                    people who buy the
+                                                    tickets to the party and accordingly you can make your own guest
+                                                    list</p>
+                                            </div><!-- /.inner -->
+                                        </div>
+                                    </div>
+                                    <div class="accrodion last-chiled">
+                                        <div class="accrodion-title">
+                                            <h4>How can I manage RSVPs and track attendance on the house party website?
+                                            </h4>
+                                        </div>
+                                        <div class="accrodion-content">
+                                            <div class="inner">
+                                                <p>Verified Profiles of guests who rsvp or show interest at an event
+                                                    will be shared with the
+                                                    host and accordingly you can manage your guestlist for the party
+                                                </p>
+                                            </div><!-- /.inner -->
+                                        </div>
+                                    </div>
+                                    <div class="accrodion last-chiled">
+                                        <div class="accrodion-title">
+                                            <h4>How can I communicate with my guests?</h4>
+                                        </div>
+                                        <div class="accrodion-content">
+                                            <div class="inner">
+                                                <p>Once the final guestlist is shared, you can contact them via whatsapp
+                                                    or call.
+                                                </p>
+                                            </div><!-- /.inner -->
+                                        </div>
+                                    </div>
+                                    <div class="accrodion last-chiled">
+                                        <div class="accrodion-title">
+                                            <h4>Can I customize privacy settings for my house party event on the
+                                                website?</h4>
+                                        </div>
+                                        <div class="accrodion-content">
+                                            <div class="inner">
+                                                <p>You can contact us on +91 8591260648 if you have queries related to
+                                                    privacy of your
+                                                    event</p>
+                                            </div><!-- /.inner -->
+                                        </div>
+                                    </div>
+                                    <div class="accrodion last-chiled">
+                                        <div class="accrodion-title">
+                                            <h4>Can I add 2 or more people along with my list or do I need to do it
+                                                separately?</h4>
+                                        </div>
+                                        <div class="accrodion-content">
+                                            <div class="inner">
+                                                <p>Yes You can book tickets for 2 or more people for a given event. </p>
+                                            </div><!-- /.inner -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="destinations-details__left">
+                            <div class="destinations-details__faq">
+                                <div class="accrodion-grp" data-grp-name="faq-one-accrodion">
+                                    <div class="accrodion ">
+                                        <div class="accrodion-title">
+                                            <h4>Can I order my drinks directly to the location?
+                                            </h4>
+                                        </div>
+                                        <div class="accrodion-content">
+                                            <div class="inner">
+                                                <p>You can use the Cheers by united app to order your favourite drinks
+                                                    at the venue</p>
+                                            </div><!-- /.inner -->
+                                        </div>
+                                    </div>
+                                    <div class="accrodion">
+                                        <div class="accrodion-title">
+                                            <h4>Can I access the house party website on mobile devices?</h4>
+                                        </div>
+                                        <div class="accrodion-content">
+                                            <div class="inner">
+                                                <p>Yes the version is available on all iOS and android devices.</p>
+                                            </div><!-- /.inner -->
+                                        </div>
+                                    </div>
+                                    <div class="accrodion last-chiled">
+                                        <div class="accrodion-title">
+                                            <h4>Is there a cost associated with using the house party website?</h4>
+                                        </div>
+                                        <div class="accrodion-content">
+                                            <div class="inner">
+                                                <p>You have to buy a ticket and reserve your seat at a party.
+                                                </p>
+                                            </div><!-- /.inner -->
+                                        </div>
+                                    </div>
+                                    <div class="accrodion last-chiled">
+                                        <div class="accrodion-title">
+                                            <h4>How can I get in touch with the support team of the house party website?
+                                            </h4>
+                                        </div>
+                                        <div class="accrodion-content">
+                                            <div class="inner">
+                                                <p>You can always reach out to us on +91 8591260648 or mail us at
+                                                    Cheers@housepartybyunited.com.
+                                                </p>
+                                            </div><!-- /.inner -->
+                                        </div>
+                                    </div>
+                                    <div class="accrodion last-chiled">
+                                        <div class="accrodion-title">
+                                            <h4>How can I share updates or changes with my guests?</h4>
+                                        </div>
+                                        <div class="accrodion-content">
+                                            <div class="inner">
+                                                <p>Once you host a party or list a place, You can coordinate with the
+                                                    support team to
+                                                    manage any changes or share updates regarding your event</p>
+                                            </div><!-- /.inner -->
+                                        </div>
+                                    </div>
+                                    <div class="accrodion last-chiled">
+                                        <div class="accrodion-title">
+                                            <h4>Is the house party website secure and private for my event?</h4>
+                                        </div>
+                                        <div class="accrodion-content">
+                                            <div class="inner">
+                                                <p>Yes. We at houseparty ensure safety and security of all our users.
+                                                </p>
+                                            </div><!-- /.inner -->
+                                        </div>
+                                    </div>
+                                    <div class="accrodion last-chiled">
+                                        <div class="accrodion-title">
+                                            <h4>Is it necessary to BYOB?
+                                            </h4>
+                                        </div>
+                                        <div class="accrodion-content">
+                                            <div class="inner">
+                                                <p>You can always get your own drinks or order drinks via cheers by
+                                                    united spirits app to
+                                                    any location.</p>
+                                            </div><!-- /.inner -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--Destinations Details End-->
+
+        <script>
+            var acc = document.getElementsByClassName("accrodion-title");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
+        </script>
+
+
+        <!--Brand Three Start-->
+        <div class="container" style="margin-bottom: 110px;margin-top: -40px;">
+            <div class="section-title text-center">
+                <span class="section-title__tagline" style="font-family: Condiment, Sans-serif;">Our Partners</span>
+                <h2 class="section-title__title">Our Collaborations</h2>
+            </div>
+            <div class="row" style="margin-left: 232px;">
+                <div class="col-md-6 box brandClass1">
+                    <img src="assets/img/KARIBO-PNG-300x51-1.png">
+                </div>
+                <div class="col-md-6 box brandClass2">
+                    <img src="assets/img/things2do-logo.483a4dfe-2.png">
+                </div>
+            </div>
+        </div>
+        <!--Brand Three End-->
+
+        <!--whatsaap button-->
+
+        <div class="Whatsupbuttn" style="width:70px;">
+            <a href="https://api.whatsapp.com/send?phone=9185912 60648" style="float:right;" right:"10px;"=""
+                target="_blank">
+                <img src="assets/img/whatsaap.png" title="SMS NOW" style="height:60px; margin-right:-38px; float:left;">
+            </a>
+        </div>
+
+
+
+        <!--whatsaap button End-->
+
+
+
+        <!--Site Footer One Start-->
+        <footer class="site-footer">
+            <div class="site-footer__top">
+                <div class="container">
+                    <div class="site-footer__top-inner">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                                <div class="footer-widget__column footer-widget__about">
+
+
+                                    <ul class="footer-widget__about-contact list-unstyled">
+                                        <li>
+                                            <div class="icon" style="margin-top: 2px;">
+                                                <i class="fas fa-phone-square-alt"></i>
+                                            </div>
+                                            <div class="text">
+                                                <a href="tel:+91 85912 60648"> +91 85912 60648</a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <i class="fas fa-envelope"></i>
+                                            </div>
+                                            <div class="text">
+                                                <a href="mailto:Cheers@housepartybyunited.com">Cheers@housepartybyunited.com
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon icon2">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                            </div>
+                                            <div class="text">
+                                                <p>
+                                                    Shop No. 04, Veena Tower, near Balaji Super Market, Veena Nagar
+                                                    Phase-II, Veena Nagar, Mulund West, W, Maharashtra 400080 </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                                <div class="footer-widget__column footer-widget__company clearfix">
+                                    <h3 class="footer-widget__title">Company</h3>
+                                    <ul class="footer-widget__company-list list-unstyled">
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="attend-a-party.html">Attend A Party</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                        <li><a href="terms&condition.html">Terms & Conditions</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                                <div class="footer-widget__column footer-widget__explore">
+                                    <h3 class="footer-widget__title">Explore</h3>
+                                    <ul class="list-unstyled footer-widget__explore-list">
+                                        <li><a href="host-a-party.html">Host A Party</a></li>
+                                        <li><a href="list-a-place.html">List A Place</a></li>
+                                        <li><a href="#">Become A Host</a></li>
+                                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                                <div class="footer-widget__column footer-widget__newsletter">
+                                    <h3 class="footer-widget__title" style="margin-left: 9px;">Become A Host</h3>
+
+                                    <div class="mc-form__response text-center"></div><!-- /.mc-form__response -->
+                                    <div class="footer-widget__newsletter-bottom">
+
+                                        <div class="footer-widget__newsletter-bottom-text">
+                                            <p>Are you passionate about engaging with audiences, commanding attention,
+                                                and sharing captivating stories? Become a host and embark on an exciting
+                                                journey where you can showcase your talents while earning a living doing
+                                                what you love.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="site-footer__bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="site-footer__bottom-inner">
+                                <div class="site-footer__bottom-left">
+                                    <div class="footer-widget__social">
+
+                                        <a href="https://instagram.com/houseparty_byunited?igshid=MzRlODBiNWFlZA=="><i
+                                                class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                                <div class="site-footer__bottom-right">
+                                    <p>© Copyright 2023 by House Party by United. Designed by Team <a
+                                            href="https://zolov.io/">Zolov.io </a></p>
+                                </div>
+                                <div class="site-footer__bottom-left-arrow">
+                                    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><span
+                                            class="icon-right-arrow"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--Site Footer One End-->
+
+
+    </div><!-- /.page-wrapper -->
+
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+            <div class="logo-box">
+                <a href="index.html" aria-label="logo image"><img src="assets/img/logo.png" width="155" alt="" /></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:Cheers@housepartybyunited.com">Cheers@housepartybyunited.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a href="tel:+91 85912 60648">+91 85912 60648</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__top">
+                <div class="mobile-nav__social">
+
+                    <a href="https://instagram.com/houseparty_byunited?igshid=MzRlODBiNWFlZA=="
+                        class="fab fa-instagram"></a>
+                </div><!-- /.mobile-nav__social -->
+            </div><!-- /.mobile-nav__top -->
+
+
+
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form action="#">
+                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+                <input type="text" id="search" placeholder="Search Here..." />
+                <button type="submit" aria-label="search submit" class="thm-btn">
+                    <i class="icon-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+
+
+
+    <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendors/odometer/odometer.min.js"></script>
+    <script src="assets/vendors/swiper/swiper.min.js"></script>
+    <script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/countdown/countdown.min.js"></script>
+    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendors/twentytwenty/twentytwenty.js"></script>
+    <script src="assets/vendors/twentytwenty/jquery.event.move.js"></script>
+    <script src="assets/vendors/bxslider/jquery.bxslider.min.js"></script>
+    <script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="assets/vendors/vegas/vegas.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/timepicker/timePicker.js"></script>
+
+
+
+
+    <!-- template js -->
+    <script src="assets/js/tevily.js"></script>
+</body>
+
+</html>

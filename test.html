@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>test app</h1>
+    <button onclick="getData()" >Get</button>
+    <script>
+        const url = "https://hp.hnktrecruitment.in/test2"
+        async function getData(){
+           try{
+            const response = await fetch(url).then((res)=>{
+                return res.json()
+            })
+            console.log(response);
+
+    if(response.status ==200){
+        console.log(response);
+    }
+
+           }catch(err){
+            console.log(err);
+           }
+        }
+
+        
+    </script>
+</body>
+</html>
